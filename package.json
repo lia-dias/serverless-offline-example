@@ -4,7 +4,7 @@
   "description": "A simple example to try out the serverless offline plugin for Serverles Framework",
   "main": "src/handler.js",
   "scripts": {
-    "dev": "sls offline",
+    "serve": "sls offline",
     "test": "jest"
   },
   "repository": {

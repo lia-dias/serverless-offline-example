@@ -3,7 +3,7 @@ frameworkVersion: '3'
 
 provider:
   name: aws
-  runtime: nodejs18.x
+  runtime: nodejs14.x
 
 functions:
   api:
@@ -16,3 +16,7 @@ functions:
 	
 plugins:
   - serverless-offline
+
+custom:
+  serverless-offline:
+    host: 0.0.0.0
