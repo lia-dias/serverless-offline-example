@@ -1,0 +1,30 @@
+{
+  "name": "serverless-offline-example",
+  "version": "1.0.0",
+  "description": "A simple example to try out the serverless offline plugin for Serverles Framework",
+  "main": "src/handler.js",
+  "scripts": {
+    "dev": "sls offline",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lia-dias/serverless-offline-example.git"
+  },
+  "keywords": [
+    "serverless",
+    "aws",
+    "lambda",
+    "serverless-offline"
+  ],
+  "author": "Lia Dias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lia-dias/serverless-offline-example/issues"
+  },
+  "homepage": "https://github.com/lia-dias/serverless-offline-example#readme",
+  "devDependencies": {
+    "serverless": "^3.27.0",
+    "serverless-offline": "^12.0.4"
+  }
+}
