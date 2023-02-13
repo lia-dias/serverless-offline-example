@@ -5,3 +5,13 @@ services:
     build: .
     ports:
       - "3000:3000"
+    links:
+      - db:database
+
+  db:
+    image: mysql:8
+    expose: ["3306"]
+    environment:
+      - MYSQL_ROOT_PASSWORD=development
+    volumes:
+      - ./database-volume:/docker-entrypoint-initdb.d
